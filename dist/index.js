@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-to-action
+ * name: @jswork/next-to-action
  * description: Make an action callback for target.
  * homepage: https://github.com/afeiship/next-to-action
  * version: 1.0.0
- * date: 2020-06-24T15:02:49.445Z
+ * date: 2020-11-20 21:07:05
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.toAction = function (inAction) {
     return function (target) {
@@ -21,5 +21,3 @@
     module.exports = nx.toAction;
   }
 })();
-
-//# sourceMappingURL=next-to-action.js.map
