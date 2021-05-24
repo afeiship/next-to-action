@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-to-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make an action callback for target.",
   "homepage": "https://github.com/afeiship/next-to-action",
   "author": {
