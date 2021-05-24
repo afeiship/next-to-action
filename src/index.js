@@ -4,7 +4,7 @@
 
   nx.toAction = function (inAction) {
     return function (target) {
-      return target[inAction]();
+      return target[inAction] ? target[inAction]() : target;
     };
   };
 
